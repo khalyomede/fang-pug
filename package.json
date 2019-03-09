@@ -1,6 +1,6 @@
 {
 	"name": "@khalyomede/fang-pug",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Fang plugin for pug.",
 	"main": "lib/main.js",
 	"repository": "https://github.com/khalyomede/fang",
