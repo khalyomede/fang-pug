@@ -9,16 +9,18 @@ Compile Pug files to html using [pug](https://www.npmjs.com/package/pug). See [P
 
 ## Installation
 
+Install globally [`@khalyomede/fang`](https://www.npmjs.com/package/@khalyomede/fang) if you did not yet.
+
 NPM:
 
 ```bash
-npm install --save-dev @khalyomede/fang@0.* @khalyomede@fang-pug@0.*
+npm install --save-dev @khalyomede/fang-pug@0.* @khalyomede/fang@0.*
 ```
 
 Yarn:
 
 ```bash
-yarn add --dev @khalyomede/fang@0.* @khalyomede/fang-pug@0.*
+yarn add --dev @khalyomede/fang-pug@0.* @khalyomede/fang@0.*
 ```
 
 ## Usage
