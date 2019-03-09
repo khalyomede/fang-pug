@@ -23,7 +23,6 @@
 		"rename": "1.*"
 	},
 	"scripts": {
-		"fang": "node node_modules/@khalyomede/fang/lib/cli.js",
 		"build": "gulp build",
 		"start": "gulp start",
 		"test": "mocha test"
