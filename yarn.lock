@@ -3,9 +3,9 @@
 
 
 "@khalyomede/fang@0.*":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@khalyomede/fang/-/fang-0.1.1.tgz#75ff3b1e99268379ee1b71f734fa3ca323a7f990"
-  integrity sha512-jjpSYKK+/E5gVMt0zcqBZMaTWqpW6QCGuU9HXBDJB74dyBpYFdeuv1QnSzxG657XGoAQ04CK7QiRXViADSQTaw==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@khalyomede/fang/-/fang-0.1.4.tgz#94d280cd641c3b3c4a36a0d9da6f6539ace57b60"
+  integrity sha512-SgUjjgJlu612GMYUCj+4hQuoWaMUCAz5hwD34vR1AJtZbEDtsCnDjASqgf9cCowgmUQnVCvmNhT8/Ys+Y250Tg==
   dependencies:
     cli "1.*"
     cli-color "1.*"
@@ -14,6 +14,7 @@
     fs-extra "7.*"
     glob "7.*"
     performance-now "2.*"
+    slash "2.*"
 
 "@types/babel-types@*", "@types/babel-types@^7.0.0":
   version "7.0.6"
@@ -2793,6 +2794,11 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+slash@2.*:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
+  integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
