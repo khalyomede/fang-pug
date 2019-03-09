@@ -14,7 +14,6 @@
 		"gulp-typescript": "5.*",
 		"mocha": "6.*",
 		"node-cmd": "3.*",
-		"sync-exec": "0.*",
 		"typescript": "3.*"
 	},
 	"dependencies": {
