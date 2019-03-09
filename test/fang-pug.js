@@ -1,8 +1,8 @@
 const expect = require("chai").expect;
-const exec = require("sync-exec");
+const { execSync } = require("child_process");
 const { readFileSync } = require("fs");
 
-exec("yarn fang build");
+execSync("yarn fang build");
 
 describe("fang-pug", () => {
 	it("should produce an empty file if the html content is empty", () => {
