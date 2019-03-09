@@ -1,0 +1,35 @@
+{
+	"name": "@khalyomede/fang-pug",
+	"version": "0.1.0",
+	"description": "Fang plugin for pug.",
+	"main": "lib/main.js",
+	"repository": "https://github.com/khalyomede/fang",
+	"author": "Khalyomede <khalyomede@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@khalyomede/fang": "0.*",
+		"@types/node": "11.*",
+		"chai": "4.*",
+		"gulp": "4.*",
+		"gulp-typescript": "5.*",
+		"mocha": "6.*",
+		"node-cmd": "3.*",
+		"sync-exec": "0.*",
+		"typescript": "3.*"
+	},
+	"dependencies": {
+		"cli-color": "1.*",
+		"fancy-log": "1.*",
+		"pug": "2.*",
+		"rename": "1.*"
+	},
+	"scripts": {
+		"fang": "node node_modules/@khalyomede/fang/lib/cli.js",
+		"build": "gulp build",
+		"start": "gulp start",
+		"test": "mocha test"
+	},
+	"files": [
+		"lib/main.js"
+	]
+}
