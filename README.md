@@ -2,6 +2,8 @@
 
 [Fang](https://www.npmjs.com/package/@khalyomede/fang-pug) plugin for pug.
 
+![npm](https://img.shields.io/npm/v/@khalyomede/fang-pug.svg) ![npm (prod) dependency version](https://img.shields.io/npm/dependency-version/@khalyomede/fang-pug/pug.svg) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/@khalyomede/fang-pug.svg) ![NPM](https://img.shields.io/npm/l/@khalyomede/fang-pug.svg)
+
 ## Summary
 
 - [Installation](#installation)
