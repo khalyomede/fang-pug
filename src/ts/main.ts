@@ -2,7 +2,19 @@ import * as pug from "pug";
 import * as rename from "rename";
 import { basename } from "path";
 
-const fangPug = options => fang => {
+/**
+ * Convert a pug file into its HTML counterpart using Pug.
+ *
+ * @param {Object} options The pug options.
+ * @param {Boolean} options.compileDebug
+ * @param {Boolean} options.pretty
+ * @return {Fang}
+ * @see https://www.npmjs.com/package/pug#options For a list of available pug options.
+ */
+const fangPug = (options: {
+	compileDebug: boolean;
+	pretty: boolean;
+}): Object => fang => {
 	fang.pluginName = "fang-pug";
 
 	fang.files.map(file => {
